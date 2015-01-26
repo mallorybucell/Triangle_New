@@ -1,4 +1,4 @@
-require "minitest/autorun"
+require 'minitest/autorun'
 
 def triangle a,b,c
     if (a == b) and (b == c) 
