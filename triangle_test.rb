@@ -10,7 +10,7 @@ def triangle a,b,c
   end
 end
 
-class TestMeme < Minitest::Test
+class TestMeme < MiniTest::Test
   def test_equilateral
     assert_equal :equilateral, triangle(5,5,5)
   end
