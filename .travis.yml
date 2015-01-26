@@ -1,0 +1,3 @@
+language: ruby
+rmv: 2.2.0
+script: "ruby triangle_test.rb"
